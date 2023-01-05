@@ -1,0 +1,100 @@
+#h1{
+    text-align: center;
+}
+#p1{
+    text-align: center;
+
+}
+#body1{
+    background: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=360);
+}
+.scores {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.submit{
+    border-style: none;
+    border-radius: 12px;
+    background-color: #46423f59;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    box-shadow: 5px 5px 8px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+.submit:hover{
+    box-shadow: 15px 15px 15px rgb(0,0,0,0.2);
+    background-color: #c5a99459;
+}
+
+.inp{
+    width: 100%;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px 4px;
+    text-indent: 3px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+#div1{
+    background: url(http://sbt.com.tr/wp-content/uploads/Savin-NY-Website-Background-Web-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+#div2{
+    display:flex;
+    justify-content: center;
+    height: 110vh;
+    width: 100%;
+    background: url(http://sbt.com.tr/wp-content/uploads/Savin-NY-Website-Background-Web-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.social {
+    position: fixed;
+    top: 20px;
+}
+.social ul {
+    padding: 0px;
+    transform: translate(-270px, 0);
+}
+.social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 1s;
+}
+.social ul li:hover {
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+    color: #000;
+}
+.social ul li:hover i {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.36);
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+.social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    transform: rotate(0deg);
+}
