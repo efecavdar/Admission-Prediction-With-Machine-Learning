@@ -135,8 +135,9 @@
                     name="cgpa" 
                     placeholder="CGPA" 
                     required="required"
+                    step="0.001"
                     maxlength="4"
-                    min="0"
+                    min="0.0"
                     max="10.0"/><br><br>
 
                 <label>GRE Score (200-350) : </label><br>
@@ -144,8 +145,9 @@
                     name="gre_score" 
                     placeholder="GRE Score" 
                     required="required"
+                    step="0.001"
                     maxlength="5"
-                    min="200"
+                    min="200.0"
                     max="350.0"/><br><br>
 
                 <label>TOEFL Score (0-120) : </label><br>
@@ -153,8 +155,9 @@
                     name="toefl_score" 
                     placeholder="TOEFL Score" 
                     required="required"
+                    step="0.001"
                     maxlength="4"
-                    min="0"
+                    min="0.0"
                     max="120.0"/><br><br>
 
                 <label>University Ranking (0-5) : </label><br>
@@ -162,8 +165,9 @@
                     name="university_ranking" 
                     placeholder="University Rank" 
                     required="required"
+                    step="0.001"
                     maxlength="4"
-                    min="0"
+                    min="0.0"
                     max="5.0"/><br><br>
 
                 <label>SOP Score (0-5) : </label><br>
@@ -171,12 +175,13 @@
                     name="sop_score" 
                     placeholder="GRE Score" 
                     required="required"
+                    step="0.001"
                     maxlength="4"
-                    min="0"
+                    min="0.0"
                     max="5.0"/><br><br><br>
 
                 <button class="submit" type="submit" class="btn btn-primary btn-block btn-large">Predict Percent Admission</button>
-                <h4 id =h4>{{ prediction_text }}</h4>
+                <h2 id =h2>{{ prediction_text }}</h2>
 
             </form>
         </div>
